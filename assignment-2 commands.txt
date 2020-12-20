@@ -1,0 +1,32 @@
+ https://github.com/vdhul1/assignment-2.git
+ 
+ 
+git init
+git remote add origin https://github.com/vdhul1/assignment-2.git
+nano feature1.txt
+nano feature2.txt
+git add .
+git commit -m "features 1 & 2 commits"
+git status
+git branch
+git branch develop
+git branch feature1
+git branch feature2
+git checkout develop
+git branch
+nano develop.txt
+git status
+git stash -u
+git checkout feature1
+git status
+git branch
+nano new.txt
+git status
+git add .
+git commit -m "new.txt from feature1 br. commit"
+git status
+git checkout develop
+git stash pop
+git add .
+git commit -m "develop branch commit"
+git push origin master develop feature1 feature2
